@@ -1,0 +1,28 @@
+{
+  "name": "emarket_api",
+  "version": "1.0.0",
+  "description": "Backend part of emarket project",
+  "homepage": "https://github.com/ArtursLiepa/emarket_api#readme",
+  "bugs": {
+    "url": "https://github.com/ArtursLiepa/emarket_api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtursLiepa/emarket_api.git"
+  },
+  "license": "MIT",
+  "author": "Arturs Liepa",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
